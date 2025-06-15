@@ -1,0 +1,78 @@
+{
+  // 是否在语句末尾添加分号
+  "semi": true,
+
+  // 是否使用单引号替代双引号
+  "singleQuote": true,
+
+  // 一行最多多少个字符
+  "printWidth": 80,
+
+  // 对象或数组的最后一个元素后面是否加逗号
+  // es5: 在ES5中有效的尾随逗号（对象、数组等）
+  "trailingComma": "es5",
+
+  // 箭头函数只有一个参数时是否加括号
+  // avoid: 省略括号 | always: 总是有括号
+  "arrowParens": "always",
+
+  // 缩进使用的空格数
+  "tabWidth": 2,
+
+  // 是否使用tab缩进，false表示用空格缩进
+  "useTabs": false,
+
+  // 对象大括号内两边是否加空格 { foo: bar }
+  "bracketSpacing": true,
+
+  // 指定换行符的类型
+  // lf: \n
+  // crlf: \r\n
+  // cr: \r
+  "endOfLine": "lf",
+
+  // 是否缩进Vue文件中的script和style标签
+  "vueIndentScriptAndStyle": true,
+
+  // HTML空白格敏感度
+  // css: 遵守CSS display属性的默认值
+  // strict: 空格敏感
+  // ignore: 空格不敏感
+  "htmlWhitespaceSensitivity": "strict",
+
+  // 标签的反尖括号是否需要换行
+  // true: <div
+  //          id="foo"
+  //          class="bar">
+  // false: <div
+  //          id="foo"
+  //          class="bar"
+  //        >
+  "bracketSameLine": false,
+
+  // 在JSX中使用单引号而不是双引号
+  "jsxSingleQuote": true,
+
+  // 对象的key是否使用引号
+  // as-needed: 只有在需要的情况下才使用
+  // consistent: 有一个属性需要引号，就都需要引号
+  // preserve: 保持用户输入的情况
+  "quoteProps": "consistent",
+
+  // 是否要换行
+  // preserve: 保持原样
+  // always: 总是换行
+  // never: 总是不换行
+  "proseWrap": "preserve",
+
+  // 是否插入pragma注释，表明该文件已被prettier格式化
+  "insertPragma": false,
+
+  // 是否需要编译指示，即文件顶部需要有特殊的@format标记
+  "requirePragma": false,
+
+  // 是否格式化文件中嵌入的代码块
+  // auto: 自动识别并格式化
+  // off: 不格式化
+  "embeddedLanguageFormatting": "auto"
+}

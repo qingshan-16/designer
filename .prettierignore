@@ -1,0 +1,15 @@
+dist
+node_modules
+*.min.js
+*.min.css
+.git
+.svn
+.hg
+.idea
+.vscode
+*.log
+*.lock
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+coverage 

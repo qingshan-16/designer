@@ -1,0 +1,18 @@
+<svg width="40" height="40"
+     xmlns="http://www.w3.org/2000/svg">
+    <g fill="none" fill-rule="evenodd">
+        <path d="M22.828 2.828l14.344 14.344a4 4 0 010 5.656L22.828 37.172a4 4 0 01-5.656 0L2.828 22.828a4 4 0 010-5.656L17.172 2.828a4 4 0 015.656 0z"
+              fill="#FFB32E"/>
+        <path d="M23.084 1.277l15.639 15.64a4.361 4.361 0 010 6.167l-15.64 15.639a4.361 4.361 0 01-6.167 0L1.277 23.083a4.361 4.361 0 010-6.167l15.64-15.639a4.361 4.361 0 016.167 0z"
+              fill="#FFB32E"/>
+        <path d="M8 8h24v24H8z"/>
+        <path d="M12 20c1.292 0 2.544.453 3.536 1.28l2.239 1.866A8 8 0 0022.896 25H26" stroke="#FFF" stroke-width="1.5"
+              stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M12 20a5.524 5.524 0 003.536-1.28l2.239-1.866A8 8 0 0122.896 15H26" stroke="#FFB32E" stroke-width="5"
+              stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M12 20a5.524 5.524 0 003.536-1.28l2.239-1.866A8 8 0 0122.896 15H26" stroke="#FFF" stroke-width="1.5"
+              stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M24.83 12.226l2.74 2.398a.5.5 0 010 .752l-2.74 2.398a.5.5 0 01-.83-.376v-4.796a.5.5 0 01.83-.376zM24.83 22.226l2.74 2.398a.5.5 0 010 .752l-2.74 2.398a.5.5 0 01-.83-.376v-4.796a.5.5 0 01.83-.376z"
+              fill="#FFF"/>
+    </g>
+</svg>

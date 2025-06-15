@@ -1,0 +1,43 @@
+import {
+  ACTIVEMQ_NODE,
+  ARTERMISMQ_NODE,
+  BASE_NODE,
+  DB2_NODE,
+  GAUSS100_NODE,
+  GAUSS200_NODE,
+  HTTPCLIENT_NODE,
+  HTTPRESPONSE_NODE,
+  IBMMQ_NODE,
+  KAFKA_NODE,
+  MYSQL_NODE,
+  OPENAPI_NODE,
+  ORACLE_NODE,
+  POSTGRESQL_NODE,
+  QQEMAIL_NODE,
+  QUARTZ_NODE,
+  REDIS_NODE,
+  SQLSERVER_NODE,
+} from "@/constant/ComponentType";
+
+const Registry: { [key: string]: string } = {
+  [BASE_NODE]: "icon-node-base",
+  [OPENAPI_NODE]: "icon-node-openapi",
+  [ACTIVEMQ_NODE]: "icon-activemq",
+  [ARTERMISMQ_NODE]: "icon-artermismq",
+  [IBMMQ_NODE]: "icon-ibmmq",
+  [KAFKA_NODE]: "icon-kafka",
+  [QQEMAIL_NODE]: "icon-qqemail",
+  [QUARTZ_NODE]: "icon-quartz",
+  [HTTPCLIENT_NODE]: "icon-httpclient",
+  [HTTPRESPONSE_NODE]: "icon-httpresponse",
+  [DB2_NODE]: "icon-db2",
+  [GAUSS100_NODE]: "icon-gauss100",
+  [GAUSS200_NODE]: "icon-gauss200",
+  [MYSQL_NODE]: "icon-mysql",
+  [ORACLE_NODE]: "icon-oracle",
+  [POSTGRESQL_NODE]: "icon-postgresql",
+  [REDIS_NODE]: "icon-redis",
+  [SQLSERVER_NODE]: "icon-sqlserver",
+};
+
+export default Registry;

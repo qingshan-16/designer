@@ -1,0 +1,18 @@
+<svg width="36" height="36"
+     xmlns="http://www.w3.org/2000/svg">
+    <g fill="none" fill-rule="evenodd">
+        <path d="M18 0c9.941 0 18 8.059 18 18s-8.059 18-18 18S0 27.941 0 18 8.059 0 18 0z" fill="#9C89D4"/>
+        <path d="M16.272 28H9.63C8.73 28 8 27.105 8 26v-9c0-1.105.73-2 1.63-2h6.672" stroke="#FFF" stroke-width="1.5"
+              stroke-linecap="round"/>
+        <path d="M20.03 28h7.34c.9 0 1.63-.895 1.63-2v-9c0-1.105-.73-2-1.63-2H20h0" stroke="#FFF" stroke-width="1.5"
+              opacity=".403" stroke-dasharray="2,2"/>
+        <path d="M11 15v-1a6.001 6.001 0 015.22-5.95c.034-.004 0 .004.033 0" stroke="#FFF" stroke-width="1.5"
+              stroke-linecap="round"/>
+        <path d="M19.994 18.125a.75.75 0 01.75.75v1.876h2.533a.75.75 0 010 1.5h-2.533v1.874a.75.75 0 01-.648.743l-.102.007v-6.75z"
+              fill="#FFF" fill-rule="nonzero" opacity=".397"/>
+        <path d="M17.022 18.134v6.75a.75.75 0 01-.75-.75V22.25h-2.525a.75.75 0 110-1.5h2.525v-1.866a.75.75 0 01.75-.75z"
+              fill="#FFF" fill-rule="nonzero"/>
+        <path d="M26 14a6 6 0 00-6-6" stroke="#FFF" stroke-width="1.5" opacity=".403" stroke-dasharray="2"/>
+        <path stroke="#FFF" stroke-width="1.5" stroke-linecap="round" d="M18.5 5.5v25"/>
+    </g>
+</svg>

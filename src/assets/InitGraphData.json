@@ -1,0 +1,1212 @@
+{
+  "nodes": [
+    {
+      "id": "0000000",
+      "type": "openapi-node",
+      "x": 0,
+      "y": 0,
+      "properties": {
+        "locale": "enUS",
+        "validator": false,
+        "displayName": "流水线触发器",
+        "width": 200,
+        "height": 64
+      }
+    },
+    {
+      "id": "1111111",
+      "type": "plus-node",
+      "x": 1320,
+      "y": 0,
+      "properties": {
+        "locale": "cn",
+        "validator": true,
+        "width": 32,
+        "height": 32
+      }
+    },
+    {
+      "id": "2e1a459",
+      "type": "multicast-node",
+      "x": 264,
+      "y": 0,
+      "properties": {
+        "locale": "cn",
+        "validator": false,
+        "displayName": "multicast.node.title",
+        "width": 200,
+        "height": 64,
+        "jointNodeId": "1fec410"
+      }
+    },
+    {
+      "id": "c2da5a1",
+      "type": "branchname-node",
+      "x": 528,
+      "y": -512,
+      "properties": {
+        "locale": "cn",
+        "validator": true,
+        "weight": 1,
+        "displayName": "git拉取代码",
+        "width": 160,
+        "height": 36
+      }
+    },
+    {
+      "id": "594018a",
+      "type": "branchname-node",
+      "x": 528,
+      "y": -384,
+      "properties": {
+        "locale": "cn",
+        "validator": true,
+        "weight": 2,
+        "displayName": "安装依赖",
+        "width": 160,
+        "height": 36
+      }
+    },
+    {
+      "id": "beea018",
+      "type": "base-node",
+      "x": 792,
+      "y": -512,
+      "properties": {
+        "locale": "cn",
+        "validator": false,
+        "displayName": "base.node.title",
+        "width": 200,
+        "height": 64
+      }
+    },
+    {
+      "id": "4f2c161",
+      "type": "base-node",
+      "x": 792,
+      "y": -384,
+      "properties": {
+        "locale": "cn",
+        "validator": false,
+        "displayName": "base.node.title",
+        "width": 200,
+        "height": 64
+      }
+    },
+    {
+      "id": "1fec410",
+      "type": "joint-node",
+      "x": 1056,
+      "y": 0,
+      "properties": {
+        "locale": "cn",
+        "validator": true,
+        "displayName": "joint.node.title",
+        "width": 52,
+        "height": 52
+      }
+    },
+    {
+      "id": "6af4ae9",
+      "type": "branchname-node",
+      "x": 528,
+      "y": -128,
+      "properties": {
+        "locale": "cn",
+        "validator": true,
+        "weight": 4,
+        "displayName": "静态代码扫描",
+        "width": 160,
+        "height": 36
+      }
+    },
+    {
+      "id": "55a4c7f",
+      "type": "base-node",
+      "x": 792,
+      "y": -128,
+      "properties": {
+        "locale": "cn",
+        "validator": false,
+        "displayName": "base.node.title",
+        "width": 200,
+        "height": 64
+      }
+    },
+    {
+      "id": "9a3d87d",
+      "type": "branchname-node",
+      "x": 528,
+      "y": 0,
+      "properties": {
+        "locale": "cn",
+        "validator": true,
+        "weight": 5,
+        "displayName": "单元测试",
+        "width": 160,
+        "height": 36
+      }
+    },
+    {
+      "id": "fa6deac",
+      "type": "base-node",
+      "x": 792,
+      "y": 0,
+      "properties": {
+        "locale": "cn",
+        "validator": false,
+        "displayName": "base.node.title",
+        "width": 200,
+        "height": 64
+      }
+    },
+    {
+      "id": "204d081",
+      "type": "branchname-node",
+      "x": 528,
+      "y": -256,
+      "properties": {
+        "locale": "cn",
+        "validator": true,
+        "weight": 3,
+        "displayName": "构建/编译",
+        "width": 160,
+        "height": 36
+      }
+    },
+    {
+      "id": "6c6d283",
+      "type": "base-node",
+      "x": 792,
+      "y": -256,
+      "properties": {
+        "locale": "cn",
+        "validator": false,
+        "displayName": "base.node.title",
+        "width": 200,
+        "height": 64
+      }
+    },
+    {
+      "id": "2edf34f",
+      "type": "branchname-node",
+      "x": 528,
+      "y": 128,
+      "properties": {
+        "locale": "cn",
+        "validator": true,
+        "weight": 6,
+        "displayName": "打包",
+        "width": 160,
+        "height": 36
+      }
+    },
+    {
+      "id": "ea19486",
+      "type": "base-node",
+      "x": 792,
+      "y": 128,
+      "properties": {
+        "locale": "cn",
+        "validator": false,
+        "displayName": "base.node.title",
+        "width": 200,
+        "height": 64
+      }
+    },
+    {
+      "id": "fe43468",
+      "type": "branchname-node",
+      "x": 528,
+      "y": 256,
+      "properties": {
+        "locale": "cn",
+        "validator": true,
+        "weight": 7,
+        "displayName": "部署",
+        "width": 160,
+        "height": 36
+      }
+    },
+    {
+      "id": "6b06deb",
+      "type": "base-node",
+      "x": 792,
+      "y": 256,
+      "properties": {
+        "locale": "cn",
+        "validator": false,
+        "displayName": "base.node.title",
+        "width": 200,
+        "height": 64
+      }
+    },
+    {
+      "id": "50fc88d",
+      "type": "branchname-node",
+      "x": 528,
+      "y": 384,
+      "properties": {
+        "locale": "cn",
+        "validator": true,
+        "weight": 8,
+        "displayName": "保存制品",
+        "width": 160,
+        "height": 36
+      }
+    },
+    {
+      "id": "a1526e0",
+      "type": "base-node",
+      "x": 792,
+      "y": 384,
+      "properties": {
+        "locale": "cn",
+        "validator": false,
+        "displayName": "base.node.title",
+        "width": 200,
+        "height": 64
+      }
+    },
+    {
+      "id": "2534b9a",
+      "type": "branchname-node",
+      "x": 528,
+      "y": 512,
+      "properties": {
+        "locale": "cn",
+        "validator": true,
+        "weight": 9,
+        "displayName": "通知",
+        "width": 160,
+        "height": 36
+      }
+    },
+    {
+      "id": "46cca52",
+      "type": "base-node",
+      "x": 792,
+      "y": 512,
+      "properties": {
+        "locale": "cn",
+        "validator": false,
+        "displayName": "base.node.title",
+        "width": 200,
+        "height": 64
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "0326706",
+      "type": "base-edge",
+      "properties": {},
+      "sourceNodeId": "0000000",
+      "targetNodeId": "2e1a459",
+      "sourceAnchorId": "0000000_out_y",
+      "targetAnchorId": "2e1a459_in_y",
+      "startPoint": {
+        "x": 100,
+        "y": 0
+      },
+      "endPoint": {
+        "x": 238,
+        "y": 0
+      },
+      "pointsList": [
+        {
+          "x": 100,
+          "y": 0
+        },
+        {
+          "x": 238,
+          "y": 0
+        }
+      ]
+    },
+    {
+      "id": "8508be0",
+      "type": "base-edge",
+      "properties": {},
+      "sourceNodeId": "2e1a459",
+      "targetNodeId": "c2da5a1",
+      "sourceAnchorId": "2e1a459_out_y",
+      "targetAnchorId": "c2da5a1_in_y",
+      "startPoint": {
+        "x": 290,
+        "y": 0
+      },
+      "endPoint": {
+        "x": 448,
+        "y": -512
+      },
+      "pointsList": [
+        {
+          "x": 290,
+          "y": 0
+        },
+        {
+          "x": 396,
+          "y": 0
+        },
+        {
+          "x": 396,
+          "y": -512
+        },
+        {
+          "x": 448,
+          "y": -512
+        }
+      ]
+    },
+    {
+      "id": "2e8c592",
+      "type": "base-edge",
+      "properties": {},
+      "sourceNodeId": "2e1a459",
+      "targetNodeId": "594018a",
+      "sourceAnchorId": "2e1a459_out_y",
+      "targetAnchorId": "594018a_in_y",
+      "startPoint": {
+        "x": 290,
+        "y": 0
+      },
+      "endPoint": {
+        "x": 448,
+        "y": -384
+      },
+      "pointsList": [
+        {
+          "x": 290,
+          "y": 0
+        },
+        {
+          "x": 396,
+          "y": 0
+        },
+        {
+          "x": 396,
+          "y": -384
+        },
+        {
+          "x": 448,
+          "y": -384
+        }
+      ]
+    },
+    {
+      "id": "191e09a",
+      "type": "base-edge",
+      "properties": {},
+      "sourceNodeId": "c2da5a1",
+      "targetNodeId": "beea018",
+      "sourceAnchorId": "c2da5a1_out_y",
+      "targetAnchorId": "beea018_in_y",
+      "startPoint": {
+        "x": 608,
+        "y": -512
+      },
+      "endPoint": {
+        "x": 692,
+        "y": -512
+      },
+      "pointsList": [
+        {
+          "x": 608,
+          "y": -512
+        },
+        {
+          "x": 692,
+          "y": -512
+        }
+      ]
+    },
+    {
+      "id": "b465b5c",
+      "type": "base-edge",
+      "properties": {},
+      "sourceNodeId": "594018a",
+      "targetNodeId": "4f2c161",
+      "sourceAnchorId": "594018a_out_y",
+      "targetAnchorId": "4f2c161_in_y",
+      "startPoint": {
+        "x": 608,
+        "y": -384
+      },
+      "endPoint": {
+        "x": 692,
+        "y": -384
+      },
+      "pointsList": [
+        {
+          "x": 608,
+          "y": -384
+        },
+        {
+          "x": 692,
+          "y": -384
+        }
+      ]
+    },
+    {
+      "id": "4096b71",
+      "type": "base-edge",
+      "properties": {},
+      "sourceNodeId": "beea018",
+      "targetNodeId": "1fec410",
+      "sourceAnchorId": "beea018_out_y",
+      "targetAnchorId": "1fec410_in_y",
+      "startPoint": {
+        "x": 892,
+        "y": -512
+      },
+      "endPoint": {
+        "x": 1030,
+        "y": 0
+      },
+      "pointsList": [
+        {
+          "x": 892,
+          "y": -512
+        },
+        {
+          "x": 924,
+          "y": -512
+        },
+        {
+          "x": 924,
+          "y": 0
+        },
+        {
+          "x": 1030,
+          "y": 0
+        }
+      ]
+    },
+    {
+      "id": "e1d29fd",
+      "type": "base-edge",
+      "properties": {},
+      "sourceNodeId": "4f2c161",
+      "targetNodeId": "1fec410",
+      "sourceAnchorId": "4f2c161_out_y",
+      "targetAnchorId": "1fec410_in_y",
+      "startPoint": {
+        "x": 892,
+        "y": -384
+      },
+      "endPoint": {
+        "x": 1030,
+        "y": 0
+      },
+      "pointsList": [
+        {
+          "x": 892,
+          "y": -384
+        },
+        {
+          "x": 924,
+          "y": -384
+        },
+        {
+          "x": 924,
+          "y": 0
+        },
+        {
+          "x": 1030,
+          "y": 0
+        }
+      ]
+    },
+    {
+      "id": "5104184",
+      "type": "base-edge",
+      "properties": {},
+      "sourceNodeId": "1fec410",
+      "targetNodeId": "1111111",
+      "sourceAnchorId": "1fec410_out_y",
+      "targetAnchorId": "1111111_in_y",
+      "startPoint": {
+        "x": 1082,
+        "y": 0
+      },
+      "endPoint": {
+        "x": 1304,
+        "y": 0
+      },
+      "pointsList": [
+        {
+          "x": 1082,
+          "y": 0
+        },
+        {
+          "x": 1304,
+          "y": 0
+        }
+      ]
+    },
+    {
+      "id": "ae38212",
+      "type": "base-edge",
+      "properties": {},
+      "sourceNodeId": "2e1a459",
+      "targetNodeId": "6af4ae9",
+      "sourceAnchorId": "2e1a459_out_y",
+      "targetAnchorId": "6af4ae9_in_y",
+      "startPoint": {
+        "x": 290,
+        "y": 0
+      },
+      "endPoint": {
+        "x": 448,
+        "y": -128
+      },
+      "pointsList": [
+        {
+          "x": 290,
+          "y": 0
+        },
+        {
+          "x": 396,
+          "y": 0
+        },
+        {
+          "x": 396,
+          "y": -128
+        },
+        {
+          "x": 448,
+          "y": -128
+        }
+      ]
+    },
+    {
+      "id": "679f957",
+      "type": "base-edge",
+      "properties": {},
+      "sourceNodeId": "6af4ae9",
+      "targetNodeId": "55a4c7f",
+      "sourceAnchorId": "6af4ae9_out_y",
+      "targetAnchorId": "55a4c7f_in_y",
+      "startPoint": {
+        "x": 608,
+        "y": -128
+      },
+      "endPoint": {
+        "x": 692,
+        "y": -128
+      },
+      "pointsList": [
+        {
+          "x": 608,
+          "y": -128
+        },
+        {
+          "x": 692,
+          "y": -128
+        }
+      ]
+    },
+    {
+      "id": "c12a7ce",
+      "type": "base-edge",
+      "properties": {},
+      "sourceNodeId": "55a4c7f",
+      "targetNodeId": "1fec410",
+      "sourceAnchorId": "55a4c7f_out_y",
+      "targetAnchorId": "1fec410_in_y",
+      "startPoint": {
+        "x": 892,
+        "y": -128
+      },
+      "endPoint": {
+        "x": 1030,
+        "y": 0
+      },
+      "pointsList": [
+        {
+          "x": 892,
+          "y": -128
+        },
+        {
+          "x": 924,
+          "y": -128
+        },
+        {
+          "x": 924,
+          "y": 0
+        },
+        {
+          "x": 1030,
+          "y": 0
+        }
+      ]
+    },
+    {
+      "id": "9a5cfb0",
+      "type": "base-edge",
+      "properties": {},
+      "sourceNodeId": "2e1a459",
+      "targetNodeId": "9a3d87d",
+      "sourceAnchorId": "2e1a459_out_y",
+      "targetAnchorId": "9a3d87d_in_y",
+      "startPoint": {
+        "x": 290,
+        "y": 0
+      },
+      "endPoint": {
+        "x": 448,
+        "y": 0
+      },
+      "pointsList": [
+        {
+          "x": 290,
+          "y": 0
+        },
+        {
+          "x": 448,
+          "y": 0
+        }
+      ]
+    },
+    {
+      "id": "0c8dd49",
+      "type": "base-edge",
+      "properties": {},
+      "sourceNodeId": "9a3d87d",
+      "targetNodeId": "fa6deac",
+      "sourceAnchorId": "9a3d87d_out_y",
+      "targetAnchorId": "fa6deac_in_y",
+      "startPoint": {
+        "x": 608,
+        "y": 0
+      },
+      "endPoint": {
+        "x": 692,
+        "y": 0
+      },
+      "pointsList": [
+        {
+          "x": 608,
+          "y": 0
+        },
+        {
+          "x": 692,
+          "y": 0
+        }
+      ]
+    },
+    {
+      "id": "80a5ff2",
+      "type": "base-edge",
+      "properties": {},
+      "sourceNodeId": "fa6deac",
+      "targetNodeId": "1fec410",
+      "sourceAnchorId": "fa6deac_out_y",
+      "targetAnchorId": "1fec410_in_y",
+      "startPoint": {
+        "x": 892,
+        "y": 0
+      },
+      "endPoint": {
+        "x": 1030,
+        "y": 0
+      },
+      "pointsList": [
+        {
+          "x": 892,
+          "y": 0
+        },
+        {
+          "x": 1030,
+          "y": 0
+        }
+      ]
+    },
+    {
+      "id": "31baaaa",
+      "type": "base-edge",
+      "properties": {},
+      "sourceNodeId": "2e1a459",
+      "targetNodeId": "204d081",
+      "sourceAnchorId": "2e1a459_out_y",
+      "targetAnchorId": "204d081_in_y",
+      "startPoint": {
+        "x": 290,
+        "y": 0
+      },
+      "endPoint": {
+        "x": 448,
+        "y": -256
+      },
+      "pointsList": [
+        {
+          "x": 290,
+          "y": 0
+        },
+        {
+          "x": 396,
+          "y": 0
+        },
+        {
+          "x": 396,
+          "y": -256
+        },
+        {
+          "x": 448,
+          "y": -256
+        }
+      ]
+    },
+    {
+      "id": "be5e20e",
+      "type": "base-edge",
+      "properties": {},
+      "sourceNodeId": "204d081",
+      "targetNodeId": "6c6d283",
+      "sourceAnchorId": "204d081_out_y",
+      "targetAnchorId": "6c6d283_in_y",
+      "startPoint": {
+        "x": 608,
+        "y": -256
+      },
+      "endPoint": {
+        "x": 692,
+        "y": -256
+      },
+      "pointsList": [
+        {
+          "x": 608,
+          "y": -256
+        },
+        {
+          "x": 692,
+          "y": -256
+        }
+      ]
+    },
+    {
+      "id": "090d7b1",
+      "type": "base-edge",
+      "properties": {},
+      "sourceNodeId": "6c6d283",
+      "targetNodeId": "1fec410",
+      "sourceAnchorId": "6c6d283_out_y",
+      "targetAnchorId": "1fec410_in_y",
+      "startPoint": {
+        "x": 892,
+        "y": -256
+      },
+      "endPoint": {
+        "x": 1030,
+        "y": 0
+      },
+      "pointsList": [
+        {
+          "x": 892,
+          "y": -256
+        },
+        {
+          "x": 924,
+          "y": -256
+        },
+        {
+          "x": 924,
+          "y": 0
+        },
+        {
+          "x": 1030,
+          "y": 0
+        }
+      ]
+    },
+    {
+      "id": "fc8ef4a",
+      "type": "base-edge",
+      "properties": {},
+      "sourceNodeId": "2e1a459",
+      "targetNodeId": "2edf34f",
+      "sourceAnchorId": "2e1a459_out_y",
+      "targetAnchorId": "2edf34f_in_y",
+      "startPoint": {
+        "x": 290,
+        "y": 0
+      },
+      "endPoint": {
+        "x": 448,
+        "y": 128
+      },
+      "pointsList": [
+        {
+          "x": 290,
+          "y": 0
+        },
+        {
+          "x": 396,
+          "y": 0
+        },
+        {
+          "x": 396,
+          "y": 128
+        },
+        {
+          "x": 448,
+          "y": 128
+        }
+      ]
+    },
+    {
+      "id": "dfe2daa",
+      "type": "base-edge",
+      "properties": {},
+      "sourceNodeId": "2edf34f",
+      "targetNodeId": "ea19486",
+      "sourceAnchorId": "2edf34f_out_y",
+      "targetAnchorId": "ea19486_in_y",
+      "startPoint": {
+        "x": 608,
+        "y": 128
+      },
+      "endPoint": {
+        "x": 692,
+        "y": 128
+      },
+      "pointsList": [
+        {
+          "x": 608,
+          "y": 128
+        },
+        {
+          "x": 692,
+          "y": 128
+        }
+      ]
+    },
+    {
+      "id": "06eee22",
+      "type": "base-edge",
+      "properties": {},
+      "sourceNodeId": "ea19486",
+      "targetNodeId": "1fec410",
+      "sourceAnchorId": "ea19486_out_y",
+      "targetAnchorId": "1fec410_in_y",
+      "startPoint": {
+        "x": 892,
+        "y": 128
+      },
+      "endPoint": {
+        "x": 1030,
+        "y": 0
+      },
+      "pointsList": [
+        {
+          "x": 892,
+          "y": 128
+        },
+        {
+          "x": 924,
+          "y": 128
+        },
+        {
+          "x": 924,
+          "y": 0
+        },
+        {
+          "x": 1030,
+          "y": 0
+        }
+      ]
+    },
+    {
+      "id": "21d296e",
+      "type": "base-edge",
+      "properties": {},
+      "sourceNodeId": "2e1a459",
+      "targetNodeId": "fe43468",
+      "sourceAnchorId": "2e1a459_out_y",
+      "targetAnchorId": "fe43468_in_y",
+      "startPoint": {
+        "x": 290,
+        "y": 0
+      },
+      "endPoint": {
+        "x": 448,
+        "y": 256
+      },
+      "pointsList": [
+        {
+          "x": 290,
+          "y": 0
+        },
+        {
+          "x": 396,
+          "y": 0
+        },
+        {
+          "x": 396,
+          "y": 256
+        },
+        {
+          "x": 448,
+          "y": 256
+        }
+      ]
+    },
+    {
+      "id": "ba1c175",
+      "type": "base-edge",
+      "properties": {},
+      "sourceNodeId": "fe43468",
+      "targetNodeId": "6b06deb",
+      "sourceAnchorId": "fe43468_out_y",
+      "targetAnchorId": "6b06deb_in_y",
+      "startPoint": {
+        "x": 608,
+        "y": 256
+      },
+      "endPoint": {
+        "x": 692,
+        "y": 256
+      },
+      "pointsList": [
+        {
+          "x": 608,
+          "y": 256
+        },
+        {
+          "x": 692,
+          "y": 256
+        }
+      ]
+    },
+    {
+      "id": "2451909",
+      "type": "base-edge",
+      "properties": {},
+      "sourceNodeId": "6b06deb",
+      "targetNodeId": "1fec410",
+      "sourceAnchorId": "6b06deb_out_y",
+      "targetAnchorId": "1fec410_in_y",
+      "startPoint": {
+        "x": 892,
+        "y": 256
+      },
+      "endPoint": {
+        "x": 1030,
+        "y": 0
+      },
+      "pointsList": [
+        {
+          "x": 892,
+          "y": 256
+        },
+        {
+          "x": 924,
+          "y": 256
+        },
+        {
+          "x": 924,
+          "y": 0
+        },
+        {
+          "x": 1030,
+          "y": 0
+        }
+      ]
+    },
+    {
+      "id": "4b1990e",
+      "type": "base-edge",
+      "properties": {},
+      "sourceNodeId": "2e1a459",
+      "targetNodeId": "50fc88d",
+      "sourceAnchorId": "2e1a459_out_y",
+      "targetAnchorId": "50fc88d_in_y",
+      "startPoint": {
+        "x": 290,
+        "y": 0
+      },
+      "endPoint": {
+        "x": 448,
+        "y": 384
+      },
+      "pointsList": [
+        {
+          "x": 290,
+          "y": 0
+        },
+        {
+          "x": 396,
+          "y": 0
+        },
+        {
+          "x": 396,
+          "y": 384
+        },
+        {
+          "x": 448,
+          "y": 384
+        }
+      ]
+    },
+    {
+      "id": "0f0a5d3",
+      "type": "base-edge",
+      "properties": {},
+      "sourceNodeId": "50fc88d",
+      "targetNodeId": "a1526e0",
+      "sourceAnchorId": "50fc88d_out_y",
+      "targetAnchorId": "a1526e0_in_y",
+      "startPoint": {
+        "x": 608,
+        "y": 384
+      },
+      "endPoint": {
+        "x": 692,
+        "y": 384
+      },
+      "pointsList": [
+        {
+          "x": 608,
+          "y": 384
+        },
+        {
+          "x": 692,
+          "y": 384
+        }
+      ]
+    },
+    {
+      "id": "f072912",
+      "type": "base-edge",
+      "properties": {},
+      "sourceNodeId": "a1526e0",
+      "targetNodeId": "1fec410",
+      "sourceAnchorId": "a1526e0_out_y",
+      "targetAnchorId": "1fec410_in_y",
+      "startPoint": {
+        "x": 892,
+        "y": 384
+      },
+      "endPoint": {
+        "x": 1030,
+        "y": 0
+      },
+      "pointsList": [
+        {
+          "x": 892,
+          "y": 384
+        },
+        {
+          "x": 924,
+          "y": 384
+        },
+        {
+          "x": 924,
+          "y": 0
+        },
+        {
+          "x": 1030,
+          "y": 0
+        }
+      ]
+    },
+    {
+      "id": "df3478a",
+      "type": "base-edge",
+      "properties": {},
+      "sourceNodeId": "2e1a459",
+      "targetNodeId": "2534b9a",
+      "sourceAnchorId": "2e1a459_out_y",
+      "targetAnchorId": "2534b9a_in_y",
+      "startPoint": {
+        "x": 290,
+        "y": 0
+      },
+      "endPoint": {
+        "x": 448,
+        "y": 512
+      },
+      "pointsList": [
+        {
+          "x": 290,
+          "y": 0
+        },
+        {
+          "x": 396,
+          "y": 0
+        },
+        {
+          "x": 396,
+          "y": 512
+        },
+        {
+          "x": 448,
+          "y": 512
+        }
+      ]
+    },
+    {
+      "id": "905643a",
+      "type": "base-edge",
+      "properties": {},
+      "sourceNodeId": "2534b9a",
+      "targetNodeId": "46cca52",
+      "sourceAnchorId": "2534b9a_out_y",
+      "targetAnchorId": "46cca52_in_y",
+      "startPoint": {
+        "x": 608,
+        "y": 512
+      },
+      "endPoint": {
+        "x": 692,
+        "y": 512
+      },
+      "pointsList": [
+        {
+          "x": 608,
+          "y": 512
+        },
+        {
+          "x": 692,
+          "y": 512
+        }
+      ]
+    },
+    {
+      "id": "794ca3d",
+      "type": "base-edge",
+      "properties": {},
+      "sourceNodeId": "46cca52",
+      "targetNodeId": "1fec410",
+      "sourceAnchorId": "46cca52_out_y",
+      "targetAnchorId": "1fec410_in_y",
+      "startPoint": {
+        "x": 892,
+        "y": 512
+      },
+      "endPoint": {
+        "x": 1030,
+        "y": 0
+      },
+      "pointsList": [
+        {
+          "x": 892,
+          "y": 512
+        },
+        {
+          "x": 924,
+          "y": 512
+        },
+        {
+          "x": 924,
+          "y": 0
+        },
+        {
+          "x": 1030,
+          "y": 0
+        }
+      ]
+    }
+  ]
+}

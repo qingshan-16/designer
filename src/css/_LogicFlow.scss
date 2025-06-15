@@ -1,0 +1,59 @@
+/* logicflow css */
+/* LogicFlow画布悬浮时的鼠标样式 */
+.lf-drag-able {
+  cursor: grab !important;
+}
+
+/* LogicFlow画布拖动时的鼠标样式 */
+.lf-dragging {
+  cursor: grab !important;
+}
+
+/* LogicFlow鼠标悬浮在连线上时的鼠标样式 */
+.lf-edge-append {
+  cursor: grab !important;
+}
+
+foreignObject {
+  overflow: visible;
+}
+
+// 将lf的背景图片设置为透明
+.x-graph-container > div > .lf-graph {
+  background: transparent;
+}
+
+//// 节点新增时慢慢浮现
+//.lf-graph > svg > g .lf-base > .lf-node {
+//  animation: emerge 0.75s 1 ease-in-out;
+//}
+//
+///* 画布（拖拽）移动时的过渡效果 */
+//.lf-graph > svg > g {
+//  transition: transform 0.75s cubic-bezier(0.3, 0.5, 0.5, 1) 0s;
+//}
+//
+///* 配合拖着事件添加过渡 */
+//.lf-graph-transition {
+//  //transition: transform 0.75s cubic-bezier(0.3, 0.5, 0.5, 1) 0s;
+//}
+//
+///* 节点移动时的过渡 */
+//.lf-base .lf-node-content foreignObject {
+//  transition: all 0.75s ease-in-out 0s;
+//}
+//
+///* 线移动时的过渡 */
+//.lf-base .lf-edge path {
+//  transition: all 0.75s ease-in-out 0s;
+//}
+//
+//@keyframes emerge {
+//  0% {
+//    opacity: 0;
+//  }
+//
+//  100% {
+//    opacity: 1;
+//  }
+//}
